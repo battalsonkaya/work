@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="path/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="user-menu-mobile">
+                            <a href="#" aria-label="Member Signup">Üye Ol</a>
+                            <a href="#" aria-label="Member Login">Giriş Yap</a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-order-tracking">
+                            <a href="#">SİPARİŞ TAKİP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-auto d-lg-none">
+                        <div class="toggle-bar" data-selector="toggle-bar"><i class="fas fa-bars"></i></div>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="assets/img/logo.svg" alt="Home Work Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <div class="search">
+                            <form action="#" data-selector="search-form">
+                                <input type="text" name="q" placeholder="Ürün arama..." aria-label="Search">
+                                <button><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-auto col-md-2 col-lg-3">
+                        <div class="user-header-menu">
+                            <div class="user-menu d-none d-lg-block">
+                                <a href="#" aria-label="Signup">
+                                    <i class="far fa-user"></i>
+                                    <span>Giriş Yap</span>
+                                </a>
+                            </div>
+                            <div class="favorites-menu">
+                                <a href="#" aria-label="Favorites">
+                                    <i class="far fa-heart"></i>
+                                    <div class="amount">1</div>
+                                    <span>Favori Listem</span>
+                                </a>
+                            </div>
+                            <div class="cart-menu">
+                                <a href="#" aria-label="Cart">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <div class="amount">1</div>
+                                    <span>Sepetim</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 position-static d-md-none">
+                        <div class="fake-search">
+                            <form action="#" data-selector="search-form" class="openbox" data-target="search-ajax" data-mode="custom">
+                                <input type="text" name="q" placeholder="Ürün arama..." autocomplete="off" aria-label="Search">
+                                <button><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="mobile-search openbox-content">
+                            <div class="row py-3 mx-0">
+                                <div class="col-auto pr-0">
+                                    <i class="fas fa-chevron-left openbox-close"></i>
+                                </div>
+                                <div class="col">
+                                    <form action="#" data-selector="search-form">
+                                        <input type="text" name="q" placeholder="Ürün arama..." autocomplete="off" aria-label="Search">
+                                        <button><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="search-ajax-content">
+                                <div class="search-ajax-title">Son arananlar</div>
+                                <div class="search-ajax-section">
+                                    <div class="label-groups">
+                                        <div><a href="#">Örnek</a></div>
+                                        <div><a href="#">Örnek</a></div>
+                                        <div><a href="#">Örnek</a></div>
+                                        <div><a href="#">Örnek</a></div>
+                                        <div><a href="#">Örnek</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom d-none d-lg-block">
+            <div class="container">
+                <nav id="navigation">
+                    <div class="category-level-1">
+                        <ul>
+                            <li class="has-sub-category" data-selector="first-level-navigation">
+                                <a href="#" title="1. Kategori">1. Kategori</a>
+                                <div class="sub-category category-level-2">
+                                    <ul>
+                                        <li class="has-sub-category">
+                                            <a href="#" title="2. Kategori">Alt Kategori</a>
+                                            <div class="sub-category category-level-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="has-sub-category">
+                                            <a href="#" title="2. Kategori">Alt Kategori</a>
+                                            <div class="sub-category category-level-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="has-sub-category">
+                                            <a href="#" title="2. Kategori">Alt Kategori</a>
+                                            <div class="sub-category category-level-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="has-sub-category">
+                                            <a href="#" title="2. Kategori">Alt Kategori</a>
+                                            <div class="sub-category category-level-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=" 2" title="3. Kategori">3. Kategori</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" title="1. Kategori">1. Kategori</a>
+                            </li>
+                            <li>
+                                <a href="#" title="1. Kategori">1. Kategori</a>
+                            </li>
+                            <li>
+                                <a href="#" title="1. Kategori">1. Kategori</a>
+                            </li>
+                            <li>
+                                <a href="#" title="1. Kategori">1. Kategori</a>
+                            </li>
+                            <li>
+                                <a href="#" title="1. Kategori">1. Kategori</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="mobile-navigation">
+        <div class="mobile-navigation">
+            <div class="navigation-top">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <div class="navigation-close" data-selector="toggle-bar">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="navigation-logo">
+                            <img src="assets/img/logo.svg" alt="Home Work Logo">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="navigation-search openbox" data-selector="search-form" data-target="search-ajax" data-mode="custom">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-user-menu">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="user-menu-mobile">
+                                <a href="#" aria-label="Member Signup">Üye Ol</a>
+                                <a href="#" aria-label="Member Login">Giriş Yap</a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="header-order-tracking">
+                                <a href="#">SİPARİŞ TAKİP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-level-1">
+                <ul>
+                    <li class="has-sub-category">
+                        <a href="javascript:void(0);">
+                            <div>
+                                <span>Menü 1</span>
+                            </div>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                        <div class="category-level-2">
+                            <div class="mobile-navigation-back active">
+                                <a href="javascript:void(0);">
+                                    <i class="fas fa-chevron-left"></i>
+                                    <span>Geri Dön</span>
+                                </a>
+                            </div>
+                            <div class="mobile-navigation-banners">
+                                <div class="row flex-nowrap">
+                                    <div class="col-auto">
+                                        <a href="#" class="menu-banner">
+                                            <img src="assets/img/m-bn.jpg" alt="Banner">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#" class="menu-banner">
+                                            <img src="assets/img/m-bn.jpg" alt="Banner">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#" class="menu-banner">
+                                            <img src="assets/img/m-bn.jpg" alt="Banner">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#" class="menu-banner">
+                                            <img src="assets/img/m-bn.jpg" alt="Banner">
+                                        </a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#" class="menu-banner">
+                                            <img src="assets/img/m-bn.jpg" alt="Banner">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mobile-navigation-parent">
+                                <a href="#">Menü 1</a>
+                            </div>
+                            <ul>
+                                <li class="has-sub-category">
+                                    <a href="javascript:void(0);">
+                                        <div>
+                                            <span>Alt Kategori 1</span>
+                                        </div>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                    <div class="category-level-3">
+                                        <div class="mobile-navigation-back">
+                                            <a href="javascript:void(0);">
+                                                <i class="fas fa-chevron-left"></i>
+                                                <span>Geri Dön</span>
+                                            </a>
+                                        </div>
+                                        <div class="mobile-navigation-parent">
+                                            <a href="/kategori/alt-kategori-1">Alt Kategori 1</a>
+                                        </div>
+                                        <ul>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="has-sub-category">
+                                    <a href="javascript:void(0);">
+                                        <div>
+                                            <span>Alt Kategori 2</span>
+                                        </div>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                    <div class="category-level-3">
+                                        <div class="mobile-navigation-back">
+                                            <a href="javascript:void(0);">
+                                                <i class="fas fa-chevron-left"></i>
+                                                <span>Geri Dön</span>
+                                            </a>
+                                        </div>
+                                        <div class="mobile-navigation-parent">
+                                            <a href="/kategori/alt-kategori-2">Alt Kategori 2</a>
+                                        </div>
+                                        <ul>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                            <li><a href="#"><div><span>Alt Kategori 1</span></div></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <span>Kategori</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <span>Kategori</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div>
+                                            <span>Kategori</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <span>Kategori</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <span>Kategori</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <span>Kategori</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <span>Kategori</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-navigation-menu-items">
+                <ul>
+                    <li><a href="#" ><div><span>Hakkımızda</span></div></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="home-section-1 mb-4">
+                <div class="banner d-none d-md-block">
+                    <img src="assets/img/top-bn-lg.jpg" alt="">
+                </div>
+                <div class="banner d-md-none">
+                    <img src="assets/img/top-bn.jpg" alt="">
+                </div>
+            </div>
+            <div class="home-section-2">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <img src="assets/img/middle-bn.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="assets/img/middle-bn.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="home-section-3">
+                <div class="slider">
+                    <div>
+                        <img src="assets/img/slider.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/slider.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/slider.jpg" alt="">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+</body>
+    <script type="text/javascript" src="path/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="path/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/navigation-menu.js"></script>
+    <script src="https://kit.fontawesome.com/28785f1926.js" crossorigin="anonymous"></script>
+</html>
