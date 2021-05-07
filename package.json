@@ -9,7 +9,7 @@
   "author": "battal",
   "license": "ISC",
   "dependencies": {
-    "grunt": "^1.2.1"
+    "grunt": "^1.3.0"
   },
   "devDependencies": {
     "grunt-autoprefixer": "^3.0.4",
